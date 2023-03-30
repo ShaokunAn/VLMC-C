@@ -1,4 +1,5 @@
 # VLMC-C
-VLMC-C algorithm is a new context tree inference algorithm for variable length Markov chains model.
-When embedding the full order MC in a sparse structured context tree, it is founded on the consistent branch-specific mixed chi-square distribution 
-calculated based on asymptotic normal distribution.
+[VLMC-C](https://www.liebertpub.com/doi/10.1089/cmb.2021.0604) algorithm is a new context tree inference algorithm for Variable Length Markov Chains (VLMC) model. 
+When embedding the full MC of high order in a sparse structured context tree, the context algorithm proposed by Peter Buhlmann estimates the context tree structure of VLMC model. But it is prone to  algorithm involves systematic biases during the branch-pruning process. VLMC-C corrects the systematic biases, and also controls the family-wise errors. It shows superior performance in reconstructing the context tree structure of the VLMC model and improving its compression capacity.
+
+
